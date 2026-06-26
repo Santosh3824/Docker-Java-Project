@@ -1,3 +1,3 @@
 FROM tomcat
 EXPOSE 8080
-COPY target/java-docker-app.war /usr/local/tomcat/webapps/
+COPY target/java-docker-app-1.0.jar /usr/local/tomcat/webapps/
